@@ -1,0 +1,6 @@
+[wrap-git]
+directory = asyncpp
+url = https://github.com/pminiszewski/concurrencpp.git
+revision = master
+[provide]
+asyncpp = asyncpp_dep
