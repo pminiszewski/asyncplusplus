@@ -1,6 +1,6 @@
 [wrap-git]
 directory = asyncpp
-url = https://github.com/pminiszewski/concurrencpp.git
+url = git@github.com:pminiszewski/asyncplusplus.git
 revision = master
 [provide]
 asyncpp = asyncpp_dep
