@@ -9,4 +9,4 @@ asyncpp_lib = static_library('asyncpp',
 include_directories: ['include'],
 cpp_args : ['-DLIBASYNC_STATIC'])
 
-asyncpp_dep = declare_dependency(link_with: asyncpp_lib, include_directories: ['include'])
+asyncpp_dep = declare_dependency(link_with: asyncpp_lib, include_directories: ['include'], compile_args : ['-DLIBASYNC_STATIC']))
